@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    background-color: rgb(252, 252, 252);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.link{
+    text-decoration: cornflowerblue;
+    color: black;
+    font-weight: 300;
+}
+
+.link:hover{
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.contenedor{
+    padding: 16px 5vw;
+}
+.cabecera{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.cabecera--titulo{
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera--menu{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+.descripcion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descripcion--contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60vw;
+}
+
+.descripcion--titulo{
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.descripcion--descripcion{
+    font-size: 19px;
+    line-height: 1.2
+
+}
+
+.descripcion--links{
+    display: flex;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*Sección Menu*/
+
+section.menu{
+
+}
+
+/*Sección Title*/
+
+section.title{
+
+}
+
+/*Sección About*/
+
+section.about{
+
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiencia Académica*/
+
+section.academic{
+
+}
+
+/* experiencia*/
+
+section.experience{
+
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Campo para que nuestra pagina se resposiva y que pueda ser visualizada en otras medidas/
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
